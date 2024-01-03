@@ -1,0 +1,9 @@
+playwright.config -> Add config include modified 
+By default 3 workers -> 3 Browser Chromium, firefox, webkit
+Browser configuration exists in playwright.config.file
+test run in headless mode
+result test and logs show in terminal
+command : npx playwright test
+to open last HTML report run : npx playwright show-report
+Run with UI mode : npx playwright test --ui
+Updating playwright : npm install -D @playwright/test@latest
